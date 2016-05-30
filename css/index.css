@@ -1,0 +1,61 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    padding: 0;
+    margin: 0;
+}
+/*.wrapper{position: relative;}*/
+.section {
+    text-align: center;
+    font: 14px "Microsoft Yahei";
+    color: #fff;
+    position: relative;
+}
+
+.section .section1 {
+    background-color: #1bbc9b;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.section .section2 {
+    background-color: #4BBFC3;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.section .section3 {
+    background-color: #7BAABE;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.section .section4 {
+    background-color: #f90;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+.section .left{
+    background: url(../images/1_01.png);
+    position: absolute;
+    width:200px;
+    height: 100px;
+    top:0;
+    left:0;
+}
+.section .tip {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+}
+.arr-flow{position:absolute;left:50%;width:48px;height:65px;
+    margin-left:-20px;bottom:0;
+    animation:arrowGo 1.8s ease 0s infinite ;
+    background: url(../images/arrpic_03.png) center no-repeat}
